@@ -1,0 +1,249 @@
+:root {
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Raleway", sans-serif;
+  --color-primary: #212121;
+  --color-secondary: #757575;
+  --color-light: #ffffff;
+  --color-hover: #2196f3;
+  --background-color: #f5f4fa;
+}
+
+body {
+  font-family: var(--font-primary);
+  background: var(--color-light);
+  font-style: normal;
+  color: var(--color-primary);
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header-link {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.current {
+  color: #2196f3;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #2196f3;
+}
+
+.header-contact {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.header-contact:hover,
+.header-contact:focus {
+  color: #2196f3;
+}
+
+.button-link {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  border-radius: 4px;
+  color: #212121;
+  border: #f5f4fa;
+  font-family: inherit;
+}
+
+.button-link:hover,
+.button-link:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.h3-portfolio {
+  color: #212121;
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.paragraph-portfolio {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.9;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+.footer-link {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: #2196f3;
+}
+
+.footer-link2 {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+.footer-link2:hover,
+.footer-link2:focus {
+  color: #2196f3;
+}
+
+.button-webstudio {
+  font-family: "Roboto";
+  background: #2196f3;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.9;
+  font-weight: 700;
+  cursor: pointer;
+  /* identical to box height, or 188% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.logo-studio {
+  color: #000000;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+.logo-web {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.webstudio-h1 {
+  font-size: 44px;
+  line-height: 1.4;
+  font-weight: 900;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.webstudio-section {
+  background: #2f303a;
+}
+
+.lorem-h2 {
+  color: #212121;
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.paragraph-lorem {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+.our-job-h2 {
+  color: #212121;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.out-team-h2 {
+  color: #212121;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-team-section {
+  background: #f5f4fa;
+}
+
+.our-team-frame {
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
+  background: #ffffff;
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.photo-name {
+  color: #212121;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.work-position {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+footer {
+  background: #2f303a;
+}
+
+.portfolio-frame {
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
