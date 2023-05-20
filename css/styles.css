@@ -130,11 +130,13 @@ ul {
 
 .portfolio-section {
   display: block;
+  box-sizing: border-box;
   width: 1170px;
   height: 1360px;
   padding: 0;
   margin: auto;
   margin-top: 94px;
+  flex-direction: row;
 }
 
 .portfolio-frame {
