@@ -55,6 +55,10 @@ ol {
   align-items: center;
 }
 
+.border {
+  border-bottom: 1px solid #ececec;
+}
+
 address {
   font-style: normal;
 }
@@ -140,16 +144,10 @@ nav {
 .portfolio-section {
   display: block;
   align-items: center;
-  padding: auto;
-  margin: 0;
 }
 
 .portfolio-frame {
   width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 262px;
-  box-sizing: border-box;
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
@@ -160,6 +158,10 @@ nav {
   line-height: 2;
   font-weight: 700;
   letter-spacing: 0.06em;
+}
+
+.under-frame {
+  margin: 20px 24px;
 }
 
 .paragraph-portfolio {
@@ -174,23 +176,15 @@ nav {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
-  margin: 0;
-  padding: auto;
 }
 
 footer {
   background: #2f303a;
+  padding: 60px 0;
 }
 
 .logo-footer {
   color: #ffffff;
-}
-
-.footer-web {
-  display: block;
-  align-items: flex-start;
-  height: 252px;
-  padding: 60px 0;
 }
 
 .logo-web-footer {
@@ -203,11 +197,7 @@ footer {
 }
 
 .footer-address {
-  display: block;
-  flex-wrap: wrap;
-  gap: 9px;
-  align-items: flex-start;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .footer-link {
@@ -229,6 +219,10 @@ footer {
   line-height: 1.7;
   font-weight: 400;
   letter-spacing: 0.03em;
+}
+
+.footer-between {
+  margin-bottom: 9px;
 }
 
 .footer-link2:hover,
@@ -267,7 +261,7 @@ footer {
   cursor: pointer;
   align-items: center;
   text-align: center;
-  padding: 0 auto;
+  padding: 10px 41px;
   margin: 0 auto;
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -288,7 +282,6 @@ footer {
 }
 
 .lorem-section {
-  align-items: center;
   display: flex;
   gap: 30px;
 }
@@ -309,7 +302,11 @@ footer {
   font-weight: 400;
   letter-spacing: 0.03em;
   width: 270px;
-  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.work {
+  padding-top: 0;
 }
 
 .our-job-h2 {
@@ -325,8 +322,6 @@ footer {
 .our-job-block {
   display: flex;
   gap: 30px;
-  padding: auto;
-  margin: 0;
 }
 
 .our-team-h2 {
@@ -336,7 +331,7 @@ footer {
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .our-team {
@@ -345,9 +340,6 @@ footer {
 
 .our-team-frame {
   width: 270px;
-  height: 368px;
-  left: 215px;
-  top: 1635px;
   background: #ffffff;
   /* material shadow v1 */
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -358,7 +350,6 @@ footer {
 .our-team-block {
   display: flex;
   gap: 30px;
-  padding: auto;
 }
 
 .photo-name {
@@ -368,7 +359,11 @@ footer {
   font-weight: 500;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 30px;
+}
+
+.under-photo {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .work-position {
